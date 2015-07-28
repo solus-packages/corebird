@@ -1,6 +1,6 @@
 name       : corebird
 version    : 1.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/baedert/corebird/archive/1.0.tar.gz : 0ca4ca20b0281b2901382810ef8bd1682bb896c3915ad3bea3f2a41461118001
 license    : GPL-3.0
