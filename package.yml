@@ -1,12 +1,13 @@
 name       : corebird
-version    : 1.2
-release    : 5
+version    : 1.2.1
+release    : 6
 source     :
-    - https://github.com/baedert/corebird/archive/1.2.tar.gz : b495f2232569a605cf3fd9c8ebc87633ba9645fb5b0a3ec00ac95736dbb15a9c
+    - https://github.com/baedert/corebird/archive/1.2.1.tar.gz : 880c811ae00b2a88a7a3cf37fb1f0168e0aca241517a512babda39a30a8db5bd
 license    : GPL-3.0
 summary    : Native Gtk+ Twitter Client
 description: |
     Native Gtk+ Twitter Client
+component  : network.clients
 builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libsoup-2.4)

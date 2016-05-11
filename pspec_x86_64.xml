@@ -6,6 +6,7 @@
             <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0</License>
+        <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">Native Gtk+ Twitter Client</Summary>
         <Description xml:lang="en">Native Gtk+ Twitter Client
 </Description>
@@ -18,20 +19,27 @@
 </Description>
         <PartOf>network.clients</PartOf>
         <Files>
-            <Path fileType="data">/usr/share/glib-2.0</Path>
-            <Path fileType="data">/usr/share/icons</Path>
-            <Path fileType="data">/usr/share/appdata</Path>
-            <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="data">/usr/share/applications</Path>
-            <Path fileType="data">/usr/share/dbus-1</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/appdata/org.baedert.corebird.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/org.baedert.corebird.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.baedert.corebird.service</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.baedert.corebird.gschema.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/corebird.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/corebird.png</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2016-03-01</Date>
-            <Version>1.2</Version>
+        <Update release="6">
+            <Date>2016-05-11</Date>
+            <Version>1.2.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
