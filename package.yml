@@ -1,8 +1,8 @@
 name       : corebird
-version    : '1.4'
-release    : 11
+version    : 1.4.2
+release    : 12
 source     :
-    - https://github.com/baedert/corebird/archive/1.4.tar.gz : e483599a29224eec8a7a41ae95c7bad753e3e172ba146aeea165a7303dc92900
+    - https://github.com/baedert/corebird/archive/1.4.2.tar.gz : 776ff02e6b58b9d2019b141047eccf25615e3ac50a2092c665e15dabf4ec8e1f
 license    : GPL-3.0
 summary    : Native Gtk+ Twitter Client
 description: |
