@@ -1,8 +1,8 @@
 name       : corebird
-version    : 1.4.2
-release    : 12
+version    : '1.5'
+release    : 13
 source     :
-    - https://github.com/baedert/corebird/archive/1.4.2.tar.gz : 776ff02e6b58b9d2019b141047eccf25615e3ac50a2092c665e15dabf4ec8e1f
+    - https://github.com/baedert/corebird/releases/download/1.5/corebird-1.5.tar.xz : 6414668383c08f3a4bbb83da61ec4643ee7dd0470f60bac26f1e65771f03f7e1
 license    : GPL-3.0
 summary    : Native Gtk+ Twitter Client
 description: |
@@ -21,7 +21,7 @@ builddeps  :
     - glib-networking
     - vala
 setup      : |
-    %autogen --prefix=/usr
+    %configure
 build      : |
     %make
 install    : |
