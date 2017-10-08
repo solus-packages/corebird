@@ -1,6 +1,6 @@
 name       : corebird
 version    : '1.6'
-release    : 15
+release    : 16
 source     :
     - https://github.com/baedert/corebird/releases/download/1.6/corebird-1.6.tar.xz : 604ad690405b46c24e18968d40adb6aca49763d9fe2cad90b1741d83b46fe853
 license    : GPL-3.0

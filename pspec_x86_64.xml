@@ -2,8 +2,8 @@
     <Source>
         <Name>corebird</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>network.clients</PartOf>
@@ -37,12 +37,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2017-08-28</Date>
+        <Update release="16">
+            <Date>2017-10-08</Date>
             <Version>1.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
